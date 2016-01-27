@@ -1,2 +1,3 @@
 # PythonInformatics
-For Data Programming Spr2016
+
+Data Programming Spr2016 labs and projects.
