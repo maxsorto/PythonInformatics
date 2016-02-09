@@ -1,7 +1,7 @@
 """
 Name: Max Sorto
 Class: IT 5090G - Aasheim
-Due: Feb. 1, 2016
+Due: Feb. 3, 2016
 Assignment: Project 2
 """
 
@@ -68,8 +68,6 @@ def bmi_cat(bmi) :
 #Function for assigning Cholesterol level categories
 #Website used for NIH Guidelines on Cholesterol levels: http://www.nhlbi.nih.gov/health/resources/heart/heart-cholesterol-hbc-what-html
 def chol_cat(cholesterol) :
-
-	cholesterol = calc_chol(ldl_input, hdl_input, trig_input)
 
 	if cholesterol < 200:
 		chol_label = 'desirable'
@@ -140,17 +138,24 @@ def tri_cat(trig) :
 #Function to print statements to console displaying results for BMI and Cholesterol calculations...
 def print_results() :
 
-	print 'Health status for',name
+	b_result = calc_bmi(height_input, weight_input)
+	ch = calc_chol(ldl_input, hdl_input, trig_input)
+	b_cat = bmi_cat(bmi)
+	ch_cat = chol_cat(ch)
+	l_cat = ldl_cat(ldl_input)
+	h_cat = hdl_cat(hdl_input)
+	t_cat = tri_cat(trig_input)
+	
+	print 'Health status for',name+':'
 	print ''
-	print 'BMI:',calc_bmi(height_input, weight_input)
-	print 'Cholesterol:',calc_chol(ldl_input, hdl_input, trig_input)
+	print 'BMI:',b_result
+	print 'Cholesterol:',ch
 	print ''
-	print 'BMI Category:',bmi_cat(bmi)
-	print 'Chol Category:',chol_cat(cholesterol)
-	print 'LDL Category:',ldl_cat(ldl_input) 
-	print 'HDL Category:',hdl_cat(hdl_input)
-	print 'Tri Category:',tri_cat(trig_input)
-	 
+	print 'BMI Category:',b_cat
+	print 'Chol Category:',ch_cat
+	print 'LDL Category:',l_cat 
+	print 'HDL Category:',h_cat
+	print 'Tri Category:',t_cat
 
 #Call function that print results...
 print_results()

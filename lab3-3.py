@@ -9,7 +9,7 @@ import sys
 
 #Input required to be passed at runtime...
 score = sys.argv[1]
-grade = 'None' #Initialize grade variable
+
 
 #Try to typecast inputs to be able to do math,
 #Otherwise if not numeric values then exit program...
