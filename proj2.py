@@ -35,9 +35,6 @@ def calc_bmi(height, weight) :
 
 	return bmi
 
-
-print calc_bmi(height_input, weight_input)
-
 #Function cholesterol...
 def calc_chol(ldl, hdl, trig) :
 
