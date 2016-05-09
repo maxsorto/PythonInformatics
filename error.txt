@@ -1,0 +1,6 @@
+2,ht:c,wt:120,ldl:140,hdl:35,tri:140,dia:78,sys:118,gen:F,None2
+
+5,ht:68,wt:160,ldl:150,hdl:35,tri:c,dia:90,sys:130,gen:M,None5
+
+8,ht:68,wt:140,ldl:150,hdl:35,tri:120,dia:90,sys:130,gen:a,None8
+

@@ -1,0 +1,7 @@
+Monday: $14555.0
+Tueday: $15778.6666667
+Wednesday: $17472.3333333
+Thursday: $21892.0
+Friday: $26394.75
+Saturday: $62751.3333333
+Sunday: $11292.0

@@ -1,0 +1,10 @@
+PatientID,Height,Weight,LDL,HDL,Triglycerides,Diastolic,Systolic,Gender,Patient Notes
+1,ht:70,wt:158,ldl:135,hdl:50,tri:124,dia:81,sys:128,gen:F,None1
+2,ht:c,wt:120,ldl:140,hdl:35,tri:140,dia:78,sys:118,gen:F,None2
+3,ht:72,wt:180,ldl:144,hdl:50,tri:120,dia:88,sys:140,gen:M,None3
+4,ht:70,wt:160,ldl:120,hdl:55,tri:130,dia:78,sys:110,gen:M,None4
+5,ht:68,wt:160,ldl:150,hdl:35,tri:c,dia:90,sys:130,gen:M,None5
+6,ht:68,wt:140,ldl:150,hdl:35,tri:120,dia:90,sys:130,gen:F,None6
+7,ht:61,wt:140,ldl:150,hdl:35,tri:120,dia:90,sys:130,gen:F,None7
+8,ht:68,wt:140,ldl:150,hdl:35,tri:120,dia:90,sys:130,gen:a,None8
+9,ht:77,wt:155,ldl:130,hdl:35,tri:130,dia:89,sys:120,gen:M,None9

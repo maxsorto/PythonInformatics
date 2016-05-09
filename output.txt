@@ -1,0 +1,70 @@
+Patient 1 - Gender: F
+BMI: 22.6681632653	BMI Category: normal weight
+Total Chol: 209.8	Chol Cat: borderline high
+LDL Cat: borderline high	HDL Cat the higher the better	Triglyc Cat: normal
+Systolic BP: 128	Systolic Cat prehypertension
+Diastolic BP: 81	Diastolic Cat prehypertensionNone1
+
+Patient 3 - Gender: M
+BMI: 24.4097222222	BMI Category: normal weight
+Total Chol: 218.0	Chol Cat: borderline high
+LDL Cat: borderline high	HDL Cat the higher the better	Triglyc Cat: normal
+Systolic BP: 140	Systolic Cat hypertension
+Diastolic BP: 88	Diastolic Cat prehypertensionNone3
+
+Patient 4 - Gender: M
+BMI: 22.9551020408	BMI Category: normal weight
+Total Chol: 201.0	Chol Cat: borderline high
+LDL Cat: near optimal	HDL Cat the higher the better	Triglyc Cat: normal
+Systolic BP: 110	Systolic Cat normal
+Diastolic BP: 78	Diastolic Cat normalNone4
+
+Patient 6 - Gender: F
+BMI: 21.2846020761	BMI Category: normal weight
+Total Chol: 209.0	Chol Cat: borderline high
+LDL Cat: borderline high	HDL Cat a major risk factor for heart disease	Triglyc Cat: normal
+Systolic BP: 130	Systolic Cat prehypertension
+Diastolic BP: 90	Diastolic Cat hypertensionNone6
+
+Patient 7 - Gender: F
+BMI: 26.4498790648	BMI Category: overweight
+Total Chol: 209.0	Chol Cat: borderline high
+LDL Cat: borderline high	HDL Cat a major risk factor for heart disease	Triglyc Cat: normal
+Systolic BP: 130	Systolic Cat prehypertension
+Diastolic BP: 90	Diastolic Cat hypertensionNone7
+
+Patient 9 - Gender: M
+BMI: 18.3783100017	BMI Category: underweight
+Total Chol: 191.0	Chol Cat: desirable
+LDL Cat: borderline high	HDL Cat a major risk factor for heart disease	Triglyc Cat: normal
+Systolic BP: 120	Systolic Cat prehypertension
+Diastolic BP: 89	Diastolic Cat prehypertensionNone9
+
+['1', 'F']
+['3', 'M']
+['4', 'M']
+['6', 'F']
+['7', 'F']
+['9', 'M']
+
+['1', 22.66816326530612, 70, 158, 'normal weight']
+['3', 24.409722222222225, 72, 180, 'normal weight']
+['4', 22.955102040816328, 70, 160, 'normal weight']
+['6', 21.284602076124568, 68, 140, 'normal weight']
+['7', 26.449879064767536, 61, 140, 'overweight']
+['9', 18.378310001686625, 77, 155, 'underweight']
+
+['1', 209.8, 'borderline high', 135, 'borderline high', 50, 'the higher the better', 124, 'normal']
+['3', 218.0, 'borderline high', 144, 'borderline high', 50, 'the higher the better', 120, 'normal']
+['4', 201.0, 'borderline high', 120, 'near optimal', 55, 'the higher the better', 130, 'normal']
+['6', 209.0, 'borderline high', 150, 'borderline high', 35, 'a major risk factor for heart disease', 120, 'normal']
+['7', 209.0, 'borderline high', 150, 'borderline high', 35, 'a major risk factor for heart disease', 120, 'normal']
+['9', 191.0, 'desirable', 130, 'borderline high', 35, 'a major risk factor for heart disease', 130, 'normal']
+
+['1', 128, 'prehypertension', 81, 'prehypertension']
+['3', 140, 'hypertension', 88, 'prehypertension']
+['4', 110, 'normal', 78, 'normal']
+['6', 130, 'prehypertension', 90, 'hypertension']
+['7', 130, 'prehypertension', 90, 'hypertension']
+['9', 120, 'prehypertension', 89, 'prehypertension']
+
